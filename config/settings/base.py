@@ -134,7 +134,7 @@ USE_TZ = True
 SUMMERNOTE_THEME = 'bs4'
 X_FRAME_OPTOPNS = 'SAMEORIGIN'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
