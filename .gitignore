@@ -5,3 +5,4 @@ db.sqlite3
 .htaccess
 index.cgi
 __pycache__/
+config/static
