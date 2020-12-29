@@ -39,6 +39,7 @@ class Post(models.Model):
 class Ability(models.Model):
     name = models.CharField('能力', max_length=255, default='NoSetting')
     image = models.ImageField('アイコン', upload_to='ability_img/')
+    value = models.IntegerField('進捗度', default='0')
     description = models.TextField('能力の説明')
 
     def __str__(self):
